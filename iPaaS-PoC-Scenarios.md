@@ -5,14 +5,20 @@
 | 3 | [Create New Booking](#create-new-booking) |
 | 4 | [Share Booking with JV Partner](#share-booking-with-jv-partner) |
 
+
+
+
+
 # Search Services
 
 ### Purpose
 (Ad-hoc) Search for services servicing specified Port over specified Duration
+
 ### Input
 * Port
 * Duration Start Date
 * Duration End Date
+
 ### Output
 * Service[]
   * Service
@@ -26,11 +32,14 @@
   * Unberth Date
   * Created Date
   * Modified Date
+
 ### Mechanism
 * Connect to MSSQL
 * SELECT
+
 ### Notes
 * Persist Search for future reference
+
 ### Supporting Information
 - [ ] Input _Schema_
 - [ ] Output _Schema_
@@ -38,13 +47,20 @@
 - [ ] SELECT Details
 
 
+
+
+
 # Push Invoices
+
 ### Purpose
 (Scheduled) Push of customer invoices
+
 ### Input
 * Document Number
+
 ### Output
 * Invoice Details
+
 ### Mechanism
 * Connect to MSSQL
 * SELECT
@@ -52,6 +68,7 @@
 * Map to EDI INVOICE
 * Connect to SAP
   * Call _Web Service_ to submit Invoice
+
 ### Supporting Information
 - [ ] Input _Schema_
 - [ ] Output _Schema_
@@ -60,13 +77,21 @@
 - [ ] SAP Connection Details
 - [ ] EDI INVOICE Details
 
+
+
+
+
 # Create New Booking
+
 ### Purpose
 (Ad-hoc) Create new Booking
+
 ### Input
 * EDI BOOKING
+
 ### Output
 * EDI ACKNOWLEDGEMENT
+
 ### Mechanism
 * Retrieve _EDI BOOKING_ from FTP
 * Perform Master Data Mapping
@@ -74,6 +99,7 @@
 * INSERT
 * Create _EDI ACKNOWLEDGEMENT_
 * Deposit into FTP
+
 ### Supporting Information
 - [ ] Input _Schema_
 - [ ] Output _Schema_
@@ -83,9 +109,15 @@
 - [ ] EDI INVOICE Details
 - [ ] EDI ACKNOWLEDGEMENT Details
 
+
+
+
+
 # Share Booking with JV Partner
+
 ### Purpose
 (Ad-hoc) Share Booking with JV Partner
+
 ### Input
 * Service
 * Vessel
@@ -93,13 +125,16 @@
 * Port
 * Start Date
 * End Date
+
 ### Output
 * EDI BOOKING (COPARN)
+
 ### Mechanism
 * Connect to MSSQL
   * VIEW
 * Create _EDI BOOKING (COPARN)_
 * Email Customer
+
 ### Supporting Information
 - [ ] Input _Schema_
 - [ ] Output _Schema_
