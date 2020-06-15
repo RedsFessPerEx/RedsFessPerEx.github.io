@@ -60,6 +60,7 @@
 - [x] SQL Details
 
 #### SELECT
+
 | Item | Type | Type Details |  Maps to Output | Remarks |
 | --- | --- | --- | --- | --- |
 | Service | string | VARCHAR(5) | Service | |
