@@ -41,19 +41,57 @@
 * Persist Search for future reference
 
 ### Supporting Information
-- [ ] Input _Schema_
+- [x] Input _Schema_
 
 | Item | Type | Type Details | Reference Name | Remarks |
 | --- | --- | --- | --- | --- |
-| Port | string | Length 5 | @port | Required |
-| Duration Start Date | string | YYYY-MM-DD hh:mm | @modifiedfrom | this or End Date |
-| Duration End Date | string | YYYY-MM-DD hh:mm | @modifiedto | ^ |
+| Port | string | Length 5 | @port | |
+| Duration Start Date | string | ISO 8601 | @modifiedfrom | |
+| Duration End Date | string | ISO 8601 | @modifiedto | |
 
-- [ ] Output _Schema_
+- [x] Output _Schema_
+
+| Item | Type | Type Details |  Remarks |
+| --- | --- | --- | --- | --- |
+| Service | string | Length 5 | |
+| Vessel | string | Length 10 | |
+| Voyage | string | Length 50 | |
+| Port | string | Length 5 | |
+| Terminal | string | Length 10 | |
+| Arrival Date | string | Length 10 | |
+| Departure Date | string | Length 10 | |
+| Berth Date | string | Length 10 | |
+| Unberth Date | string | YYYY-MM-DD hh:mm | |
+| Created Date | string | YYYY-MM-DD hh:mm | |
+| Modified Date | string | YYYY-MM-DD hh:mm | |
+
+
 - [ ] MSSQL Connection Details
-- [ ] SELECT Details
 
+- [x] SQL Details
 
+#### SELECT
+| Item | Type | Type Details |  Maps to Output | Remarks |
+| --- | --- | --- | --- | --- |
+| Service | string | VARCHAR(5) | Service | |
+| VesselCode | string | VARCHAR(10) | Vessel | |
+| Voyage | string | VARCHAR(50) | Voyage | |
+| Port | string | VARCHAR(5) | Port | |
+| Terminal | string | VARCHAR(10) | Terminal | |
+| Arrival | datetime | YYYY-MM-DD hh:mm | Arrival Date | |
+| Departure | datetime | YYYY-MM-DD hh:mm | Departure Date | |
+| Berth | datetime | YYYY-MM-DD hh:mm | Berth Date | |
+| Unberth | datetime | YYYY-MM-DD hh:mm | Unberth Date | |
+| VoyageCreatedDateTime | datetime | YYYY-MM-DD hh:mm | Created Date | |
+| VoyageModifiedDate | datetime | YYYY-MM-DD hh:mm | Modified Date | |
+
+#### FROM / WHERE
+
+| Item | Details | Remarks |
+| --- | --- | --- | --- | --- |
+| FROM | v_VesselSchedulewithCodsBI | |
+| WHERE | port = @port | |
+| WHERE | VoyageModifiedDate between @modifiedfrom and @modifiedto | |
 
 
 
