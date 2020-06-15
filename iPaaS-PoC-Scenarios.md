@@ -88,7 +88,7 @@
 #### FROM / WHERE
 
 | Item | Details | Remarks |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | FROM | v_VesselSchedulewithCodsBI | |
 | WHERE | port = @port | |
 | WHERE | VoyageModifiedDate between @modifiedfrom and @modifiedto | |
