@@ -42,6 +42,13 @@
 
 ### Supporting Information
 - [ ] Input _Schema_
+
+| Item | Type | Type Details | Reference Name | Remarks |
+| --- | --- | --- | --- | --- |
+| Port | string | Length 5 | @port | Required |
+| Duration Start Date | string | YYYY-MM-DD hh:mm | @modifiedfrom | this or End Date |
+| Duration End Date | string | YYYY-MM-DD hh:mm | @modifiedto | ^ |
+
 - [ ] Output _Schema_
 - [ ] MSSQL Connection Details
 - [ ] SELECT Details
