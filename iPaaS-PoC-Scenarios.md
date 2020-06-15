@@ -34,8 +34,8 @@
   * Modified Date
 
 ### Mechanism
-* Connect to MSSQL
-* SELECT
+* Connect to MSSQL (on-premise)
+* Execute SQL and map into Service[]
 
 ### Notes
 * Persist Search for future reference
@@ -45,7 +45,7 @@
 
 | Item | Type | Type Details | Reference Name | Remarks |
 | --- | --- | --- | --- | --- |
-| Port | string | Length 5 | @port | |
+| Port | string | | @port | |
 | Duration Start Date | string | ISO 8601 | @modifiedfrom | |
 | Duration End Date | string | ISO 8601 | @modifiedto | |
 
@@ -53,17 +53,17 @@
 
 | Item | Type | Type Details | Remarks |
 | --- | --- | --- | --- |
-| Service | string | Length 5 | |
-| Vessel | string | Length 10 | |
-| Voyage | string | Length 50 | |
-| Port | string | Length 5 | |
-| Terminal | string | Length 10 | |
-| Arrival Date | string | Length 10 | |
-| Departure Date | string | Length 10 | |
-| Berth Date | string | Length 10 | |
-| Unberth Date | string | YYYY-MM-DD hh:mm | |
-| Created Date | string | YYYY-MM-DD hh:mm | |
-| Modified Date | string | YYYY-MM-DD hh:mm | |
+| Service | string | | |
+| Vessel | string | | |
+| Voyage | string | | |
+| Port | string | | |
+| Terminal | string | | |
+| Arrival Date | string | | |
+| Departure Date | string | | |
+| Berth Date | string | | |
+| Unberth Date | string | ISO 8601 | |
+| Created Date | string | ISO 8601 | |
+| Modified Date | string | ISO 8601 | |
 
 
 - [ ] MSSQL Connection Details
