@@ -51,8 +51,8 @@
 
 - [x] Output _Schema_
 
-| Item | Type | Type Details |  Remarks |
-| --- | --- | --- | --- | --- |
+| Item | Type | Type Details | Remarks |
+| --- | --- | --- | --- |
 | Service | string | Length 5 | |
 | Vessel | string | Length 10 | |
 | Voyage | string | Length 50 | |
