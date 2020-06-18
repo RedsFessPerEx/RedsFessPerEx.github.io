@@ -39,6 +39,7 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | MessageType | int |  | M | New-9, Replace-5, Cancel-1 |
 
 #### For T_EDI_Detail_Booking Table
+
 | SQL Field | Data Types | EDI Segment | M/C/O | Remarks |
 | --- | --- | --- | --- | --- |
 | VesselName | Varchar(100) | SegmentGroup1.TDT+20 -> C222.8212 | O |  |
