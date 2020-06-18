@@ -11,22 +11,23 @@
 * Duration End Date
 
 ### Output
-* Service[]
-  * Service
-  * Vessel
-  * Voyage
-  * Port
-  * Terminal
-  * Arrival Date
-  * Departure Date
-  * Berth Date
-  * Unberth Date
-  * Created Date
-  * Modified Date
+* Service []
+  - Service
+  - Vessel
+  - Voyage
+  - Port
+  - Terminal
+  - Arrival Date
+  - Departure Date
+  - Berth Date
+  - Unberth Date
+  - Created Date
+  - Modified Date
 
 ### Mechanism
 * Connect to MSSQL (on-premise)
-* Execute SQL and map into Service[]
+* Execute SQL
+* Map SQL results into Service []
 
 ### Notes
 * Persist Search for future reference
@@ -40,7 +41,7 @@
 | Duration Start Date | string | ISO 8601 | @modifiedfrom | |
 | Duration End Date | string | ISO 8601 | @modifiedto | |
 
-- [x] Output _Schema_
+- [x] Output _Schema (Service)_
 
 | Item | Type | Type Details | Remarks |
 | --- | --- | --- | --- |
@@ -49,15 +50,23 @@
 | Voyage | string | | |
 | Port | string | | |
 | Terminal | string | | |
-| Arrival Date | string | | |
-| Departure Date | string | | |
-| Berth Date | string | | |
+| Arrival Date | string | ISO 8601 | |
+| Departure Date | string | ISO 8601 | |
+| Berth Date | string | ISO 8601 | |
 | Unberth Date | string | ISO 8601 | |
 | Created Date | string | ISO 8601 | |
 | Modified Date | string | ISO 8601 | |
 
 
-- [ ] MSSQL Connection Details
+- [x] MSSQL Connection Details
+
+| Item | Value | Remarks |
+| --- | --- | --- |
+| Data Source | 192.168.176.71\TCMSQA | |
+| Initial Catalog | TCMS_6_Dev |   |
+| User ID  | TCMSUser  |   |
+| Password   | tgb123.DB.01  |   |
+
 
 - [x] SQL Details
 
