@@ -89,6 +89,7 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 - [x] SQL Details
 
 #### INSERT INTO T_EDI_HEADER
+
 | SQL Field | Type | Remarks |
 | --- | --- | --- |
 | Sender | Varchar(100) | |
@@ -101,6 +102,7 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | MessageType | int | |
 
 #### INSERT INTO T_EDI_DETAIL_BOOKING
+
 | SQL Field | Type | Remarks |
 | --- | --- | --- |
 | TEDIHeaderPkey  | int  | SCOPE_IDENTITY()  |
