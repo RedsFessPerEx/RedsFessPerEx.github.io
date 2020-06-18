@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfJournalVoucherJournalVoucherSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount />
+    <VendorNo />
+    <Customer>DOOCL0503</Customer>
+    <ReconAcc />
+    <Indic>D</Indic>
+    <AmtDoccur>2040.00</AmtDoccur>
+    <AmtLoccur>2040.00</AmtLoccur>
+    <AmtGrpcur>2040.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter>2000CCE</Costcenter>
+    <ProfitCtr />
+    <TaxCode />
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>SEA-SAD037312</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>OOCL0503</ItemText>
+    <RefKey1>3960035701</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service />
+    <Vessel />
+    <Voyage />
+    <Leg />
+    <Sector />
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType />
+    <ChargeType />
+    <ContainerType />
+    <ContainerSize />
+    <Commodity />
+    <CommodityType />
+    <CommittedTeu />
+    <ActualTeu />
+    <RevenueTeu />
+    <ActualWeight />
+    <BunkerQuantity />
+    <Port />
+    <PortOfLoading />
+    <PortOfDischarge />
+    <Terminal />
+    <TerminalOfLoading />
+    <TerminalOfDischarge />
+    <ThroughBl />
+    <TranshipmentPort />
+    <ShipmentTermLoad />
+    <ShipmentTermDischarge />
+  </JournalVoucherJournalVoucherSet>
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount>8100100</GlAccount>
+    <VendorNo />
+    <Customer />
+    <ReconAcc />
+    <Indic>C</Indic>
+    <AmtDoccur>135.00</AmtDoccur>
+    <AmtLoccur>135.00</AmtLoccur>
+    <AmtGrpcur>135.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter />
+    <ProfitCtr>PCE</ProfitCtr>
+    <TaxCode>OZ</TaxCode>
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>XPBMPLKCMB0132</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>LKCMB/INNML-FRT</ItemText>
+    <RefKey1>19052020</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service>CE</Service>
+    <Vessel>XPBMP</Vessel>
+    <Voyage>0132</Voyage>
+    <Leg>N</Leg>
+    <Sector>CMB-NML</Sector>
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType>OPENSLOT</FreightType>
+    <ChargeType>FRT</ChargeType>
+    <ContainerType>20DG</ContainerType>
+    <ContainerSize>20</ContainerSize>
+    <Commodity>LA</Commodity>
+    <CommodityType>DG</CommodityType>
+    <CommittedTeu>0</CommittedTeu>
+    <ActualTeu>1</ActualTeu>
+    <RevenueTeu>1</RevenueTeu>
+    <ActualWeight>7</ActualWeight>
+    <BunkerQuantity>0</BunkerQuantity>
+    <Port />
+    <PortOfLoading>LKCMB</PortOfLoading>
+    <PortOfDischarge>INNML</PortOfDischarge>
+    <Terminal />
+    <TerminalOfLoading>LKSGT</TerminalOfLoading>
+    <TerminalOfDischarge>INNML</TerminalOfDischarge>
+    <ThroughBl>N</ThroughBl>
+    <TranshipmentPort />
+    <ShipmentTermLoad>FI</ShipmentTermLoad>
+    <ShipmentTermDischarge>FOT</ShipmentTermDischarge>
+  </JournalVoucherJournalVoucherSet>
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount>8100100</GlAccount>
+    <VendorNo />
+    <Customer />
+    <ReconAcc />
+    <Indic>C</Indic>
+    <AmtDoccur>810.00</AmtDoccur>
+    <AmtLoccur>810.00</AmtLoccur>
+    <AmtGrpcur>810.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter />
+    <ProfitCtr>PCE</ProfitCtr>
+    <TaxCode>OZ</TaxCode>
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>XPBMPLKCMB0132</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>LKCMB/INNML-FRT</ItemText>
+    <RefKey1>19052020</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service>CE</Service>
+    <Vessel>XPBMP</Vessel>
+    <Voyage>0132</Voyage>
+    <Leg>N</Leg>
+    <Sector>CMB-NML</Sector>
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType>OPENSLOT</FreightType>
+    <ChargeType>FRT</ChargeType>
+    <ContainerType>40HC</ContainerType>
+    <ContainerSize>40</ContainerSize>
+    <Commodity>LA</Commodity>
+    <CommodityType>NDG</CommodityType>
+    <CommittedTeu>0</CommittedTeu>
+    <ActualTeu>6</ActualTeu>
+    <RevenueTeu>6</RevenueTeu>
+    <ActualWeight>73</ActualWeight>
+    <BunkerQuantity>0</BunkerQuantity>
+    <Port />
+    <PortOfLoading>LKCMB</PortOfLoading>
+    <PortOfDischarge>INNML</PortOfDischarge>
+    <Terminal />
+    <TerminalOfLoading>LKSGT</TerminalOfLoading>
+    <TerminalOfDischarge>INNML</TerminalOfDischarge>
+    <ThroughBl>N</ThroughBl>
+    <TranshipmentPort />
+    <ShipmentTermLoad>FI</ShipmentTermLoad>
+    <ShipmentTermDischarge>FOT</ShipmentTermDischarge>
+  </JournalVoucherJournalVoucherSet>
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount>8100100</GlAccount>
+    <VendorNo />
+    <Customer />
+    <ReconAcc />
+    <Indic>C</Indic>
+    <AmtDoccur>480.00</AmtDoccur>
+    <AmtLoccur>480.00</AmtLoccur>
+    <AmtGrpcur>480.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter />
+    <ProfitCtr>PCE</ProfitCtr>
+    <TaxCode>OZ</TaxCode>
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>XPBMPLKCMB0132</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>LKCMB/INNML-FRT</ItemText>
+    <RefKey1>19052020</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service>CE</Service>
+    <Vessel>XPBMP</Vessel>
+    <Voyage>0132</Voyage>
+    <Leg>N</Leg>
+    <Sector>CMB-NML</Sector>
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType>OPENSLOT</FreightType>
+    <ChargeType>FRT</ChargeType>
+    <ContainerType>MD20</ContainerType>
+    <ContainerSize>20</ContainerSize>
+    <Commodity>MT</Commodity>
+    <CommodityType>NDG</CommodityType>
+    <CommittedTeu>0</CommittedTeu>
+    <ActualTeu>8</ActualTeu>
+    <RevenueTeu>8</RevenueTeu>
+    <ActualWeight>16</ActualWeight>
+    <BunkerQuantity>0</BunkerQuantity>
+    <Port />
+    <PortOfLoading>LKCMB</PortOfLoading>
+    <PortOfDischarge>INNML</PortOfDischarge>
+    <Terminal />
+    <TerminalOfLoading>LKSGT</TerminalOfLoading>
+    <TerminalOfDischarge>INNML</TerminalOfDischarge>
+    <ThroughBl>N</ThroughBl>
+    <TranshipmentPort />
+    <ShipmentTermLoad>FI</ShipmentTermLoad>
+    <ShipmentTermDischarge>FOT</ShipmentTermDischarge>
+  </JournalVoucherJournalVoucherSet>
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount>8100100</GlAccount>
+    <VendorNo />
+    <Customer />
+    <ReconAcc />
+    <Indic>C</Indic>
+    <AmtDoccur>480.00</AmtDoccur>
+    <AmtLoccur>480.00</AmtLoccur>
+    <AmtGrpcur>480.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter />
+    <ProfitCtr>PCE</ProfitCtr>
+    <TaxCode>OZ</TaxCode>
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>XPBMPLKCMB0132</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>LKCMB/INNML-FRT</ItemText>
+    <RefKey1>19052020</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service>CE</Service>
+    <Vessel>XPBMP</Vessel>
+    <Voyage>0132</Voyage>
+    <Leg>N</Leg>
+    <Sector>CMB-NML</Sector>
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType>OPENSLOT</FreightType>
+    <ChargeType>FRT</ChargeType>
+    <ContainerType>M40RH</ContainerType>
+    <ContainerSize>40</ContainerSize>
+    <Commodity>MT</Commodity>
+    <CommodityType>NDG</CommodityType>
+    <CommittedTeu>0</CommittedTeu>
+    <ActualTeu>8</ActualTeu>
+    <RevenueTeu>8</RevenueTeu>
+    <ActualWeight>16</ActualWeight>
+    <BunkerQuantity>0</BunkerQuantity>
+    <Port />
+    <PortOfLoading>LKCMB</PortOfLoading>
+    <PortOfDischarge>INNML</PortOfDischarge>
+    <Terminal />
+    <TerminalOfLoading>LKSGT</TerminalOfLoading>
+    <TerminalOfDischarge>INNML</TerminalOfDischarge>
+    <ThroughBl>N</ThroughBl>
+    <TranshipmentPort />
+    <ShipmentTermLoad>FI</ShipmentTermLoad>
+    <ShipmentTermDischarge>FOT</ShipmentTermDischarge>
+  </JournalVoucherJournalVoucherSet>
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount>8100500</GlAccount>
+    <VendorNo />
+    <Customer />
+    <ReconAcc />
+    <Indic>C</Indic>
+    <AmtDoccur>75.00</AmtDoccur>
+    <AmtLoccur>75.00</AmtLoccur>
+    <AmtGrpcur>75.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter />
+    <ProfitCtr>PCE</ProfitCtr>
+    <TaxCode>OZ</TaxCode>
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>XPBMPLKCMB0132</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>LKCMB/INNML-DG</ItemText>
+    <RefKey1>19052020</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service>CE</Service>
+    <Vessel>XPBMP</Vessel>
+    <Voyage>0132</Voyage>
+    <Leg>N</Leg>
+    <Sector>CMB-NML</Sector>
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType>OPENSLOT</FreightType>
+    <ChargeType>DG</ChargeType>
+    <ContainerType>20DG</ContainerType>
+    <ContainerSize>20</ContainerSize>
+    <Commodity>LA</Commodity>
+    <CommodityType>DG</CommodityType>
+    <CommittedTeu>0</CommittedTeu>
+    <ActualTeu>1</ActualTeu>
+    <RevenueTeu>1</RevenueTeu>
+    <ActualWeight>7</ActualWeight>
+    <BunkerQuantity>0</BunkerQuantity>
+    <Port />
+    <PortOfLoading>LKCMB</PortOfLoading>
+    <PortOfDischarge>INNML</PortOfDischarge>
+    <Terminal />
+    <TerminalOfLoading>LKSGT</TerminalOfLoading>
+    <TerminalOfDischarge>INNML</TerminalOfDischarge>
+    <ThroughBl>N</ThroughBl>
+    <TranshipmentPort />
+    <ShipmentTermLoad>FI</ShipmentTermLoad>
+    <ShipmentTermDischarge>FOT</ShipmentTermDischarge>
+  </JournalVoucherJournalVoucherSet>
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount>8101400</GlAccount>
+    <VendorNo />
+    <Customer />
+    <ReconAcc />
+    <Indic>C</Indic>
+    <AmtDoccur>4.00</AmtDoccur>
+    <AmtLoccur>4.00</AmtLoccur>
+    <AmtGrpcur>4.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter />
+    <ProfitCtr>PCE</ProfitCtr>
+    <TaxCode>OZ</TaxCode>
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>XPBMPLKCMB0132</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>LKCMB/INNML-LSBAF</ItemText>
+    <RefKey1>19052020</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service>CE</Service>
+    <Vessel>XPBMP</Vessel>
+    <Voyage>0132</Voyage>
+    <Leg>N</Leg>
+    <Sector>CMB-NML</Sector>
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType>OPENSLOT</FreightType>
+    <ChargeType>BUNKER</ChargeType>
+    <ContainerType>20DG</ContainerType>
+    <ContainerSize>20</ContainerSize>
+    <Commodity>LA</Commodity>
+    <CommodityType>DG</CommodityType>
+    <CommittedTeu>0</CommittedTeu>
+    <ActualTeu>1</ActualTeu>
+    <RevenueTeu>1</RevenueTeu>
+    <ActualWeight>7</ActualWeight>
+    <BunkerQuantity>0</BunkerQuantity>
+    <Port />
+    <PortOfLoading>LKCMB</PortOfLoading>
+    <PortOfDischarge>INNML</PortOfDischarge>
+    <Terminal />
+    <TerminalOfLoading>LKSGT</TerminalOfLoading>
+    <TerminalOfDischarge>INNML</TerminalOfDischarge>
+    <ThroughBl>N</ThroughBl>
+    <TranshipmentPort />
+    <ShipmentTermLoad>FI</ShipmentTermLoad>
+    <ShipmentTermDischarge>FOT</ShipmentTermDischarge>
+  </JournalVoucherJournalVoucherSet>
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount>8101400</GlAccount>
+    <VendorNo />
+    <Customer />
+    <ReconAcc />
+    <Indic>C</Indic>
+    <AmtDoccur>24.00</AmtDoccur>
+    <AmtLoccur>24.00</AmtLoccur>
+    <AmtGrpcur>24.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter />
+    <ProfitCtr>PCE</ProfitCtr>
+    <TaxCode>OZ</TaxCode>
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>XPBMPLKCMB0132</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>LKCMB/INNML-LSBAF</ItemText>
+    <RefKey1>19052020</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service>CE</Service>
+    <Vessel>XPBMP</Vessel>
+    <Voyage>0132</Voyage>
+    <Leg>N</Leg>
+    <Sector>CMB-NML</Sector>
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType>OPENSLOT</FreightType>
+    <ChargeType>BUNKER</ChargeType>
+    <ContainerType>40HC</ContainerType>
+    <ContainerSize>40</ContainerSize>
+    <Commodity>LA</Commodity>
+    <CommodityType>NDG</CommodityType>
+    <CommittedTeu>0</CommittedTeu>
+    <ActualTeu>6</ActualTeu>
+    <RevenueTeu>6</RevenueTeu>
+    <ActualWeight>73</ActualWeight>
+    <BunkerQuantity>0</BunkerQuantity>
+    <Port />
+    <PortOfLoading>LKCMB</PortOfLoading>
+    <PortOfDischarge>INNML</PortOfDischarge>
+    <Terminal />
+    <TerminalOfLoading>LKSGT</TerminalOfLoading>
+    <TerminalOfDischarge>INNML</TerminalOfDischarge>
+    <ThroughBl>N</ThroughBl>
+    <TranshipmentPort />
+    <ShipmentTermLoad>FI</ShipmentTermLoad>
+    <ShipmentTermDischarge>FOT</ShipmentTermDischarge>
+  </JournalVoucherJournalVoucherSet>
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount>8101400</GlAccount>
+    <VendorNo />
+    <Customer />
+    <ReconAcc />
+    <Indic>C</Indic>
+    <AmtDoccur>16.00</AmtDoccur>
+    <AmtLoccur>16.00</AmtLoccur>
+    <AmtGrpcur>16.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter />
+    <ProfitCtr>PCE</ProfitCtr>
+    <TaxCode>OZ</TaxCode>
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>XPBMPLKCMB0132</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>LKCMB/INNML-LSBAF</ItemText>
+    <RefKey1>19052020</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service>CE</Service>
+    <Vessel>XPBMP</Vessel>
+    <Voyage>0132</Voyage>
+    <Leg>N</Leg>
+    <Sector>CMB-NML</Sector>
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType>OPENSLOT</FreightType>
+    <ChargeType>BUNKER</ChargeType>
+    <ContainerType>MD20</ContainerType>
+    <ContainerSize>20</ContainerSize>
+    <Commodity>MT</Commodity>
+    <CommodityType>NDG</CommodityType>
+    <CommittedTeu>0</CommittedTeu>
+    <ActualTeu>8</ActualTeu>
+    <RevenueTeu>8</RevenueTeu>
+    <ActualWeight>16</ActualWeight>
+    <BunkerQuantity>0</BunkerQuantity>
+    <Port />
+    <PortOfLoading>LKCMB</PortOfLoading>
+    <PortOfDischarge>INNML</PortOfDischarge>
+    <Terminal />
+    <TerminalOfLoading>LKSGT</TerminalOfLoading>
+    <TerminalOfDischarge>INNML</TerminalOfDischarge>
+    <ThroughBl>N</ThroughBl>
+    <TranshipmentPort />
+    <ShipmentTermLoad>FI</ShipmentTermLoad>
+    <ShipmentTermDischarge>FOT</ShipmentTermDischarge>
+  </JournalVoucherJournalVoucherSet>
+  <JournalVoucherJournalVoucherSet>
+    <MessageID>773702</MessageID>
+    <HeaderTxt>XPBMPLKCMBINNML0132</HeaderTxt>
+    <CompCodeHeader>2000</CompCodeHeader>
+    <DocDate>2020-05-26</DocDate>
+    <PstngDate>2020-06-02</PstngDate>
+    <RefDocNo>SEA-SAD037312</RefDocNo>
+    <DocType>I1</DocType>
+    <TransDate />
+    <CompCodeItem>2000</CompCodeItem>
+    <Currency>USD</Currency>
+    <TradeId />
+    <CrossCompCode />
+    <GlAccount>8101400</GlAccount>
+    <VendorNo />
+    <Customer />
+    <ReconAcc />
+    <Indic>C</Indic>
+    <AmtDoccur>16.00</AmtDoccur>
+    <AmtLoccur>16.00</AmtLoccur>
+    <AmtGrpcur>16.00</AmtGrpcur>
+    <AmtHrdcur>0.00</AmtHrdcur>
+    <SpGlInd />
+    <Pycur />
+    <Pyamt>0.00</Pyamt>
+    <TransType />
+    <Costcenter />
+    <ProfitCtr>PCE</ProfitCtr>
+    <TaxCode>OZ</TaxCode>
+    <AmtBase>0.00</AmtBase>
+    <TaxAmt>0.00</TaxAmt>
+    <AllocNmbr>XPBMPLKCMB0132</AllocNmbr>
+    <ValueDate />
+    <Pmnttrms />
+    <BlineDate>2020-05-26</BlineDate>
+    <PymtMeth />
+    <PmntBlock />
+    <ItemText>LKCMB/INNML-LSBAF</ItemText>
+    <RefKey1>19052020</RefKey1>
+    <RefKey2>CE</RefKey2>
+    <RefKey3 />
+    <Region />
+    <Hub />
+    <SubHub />
+    <Service>CE</Service>
+    <Vessel>XPBMP</Vessel>
+    <Voyage>0132</Voyage>
+    <Leg>N</Leg>
+    <Sector>CMB-NML</Sector>
+    <CustomerGroup />
+    <CustomerNo />
+    <JvPartner />
+    <FreightType>OPENSLOT</FreightType>
+    <ChargeType>BUNKER</ChargeType>
+    <ContainerType>M40RH</ContainerType>
+    <ContainerSize>40</ContainerSize>
+    <Commodity>MT</Commodity>
+    <CommodityType>NDG</CommodityType>
+    <CommittedTeu>0</CommittedTeu>
+    <ActualTeu>8</ActualTeu>
+    <RevenueTeu>8</RevenueTeu>
+    <ActualWeight>16</ActualWeight>
+    <BunkerQuantity>0</BunkerQuantity>
+    <Port />
+    <PortOfLoading>LKCMB</PortOfLoading>
+    <PortOfDischarge>INNML</PortOfDischarge>
+    <Terminal />
+    <TerminalOfLoading>LKSGT</TerminalOfLoading>
+    <TerminalOfDischarge>INNML</TerminalOfDischarge>
+    <ThroughBl>N</ThroughBl>
+    <TranshipmentPort />
+    <ShipmentTermLoad>FI</ShipmentTermLoad>
+    <ShipmentTermDischarge>FOT</ShipmentTermDischarge>
+  </JournalVoucherJournalVoucherSet>
+</ArrayOfJournalVoucherJournalVoucherSet>
