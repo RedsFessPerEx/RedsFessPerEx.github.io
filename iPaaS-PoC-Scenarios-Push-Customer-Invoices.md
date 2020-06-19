@@ -2,18 +2,18 @@
 
 # Push Invoices
 
-### Purpose
+## Purpose
 (Scheduled) Posting of customer invoices into SAP
 
-### Input
+## Input
 * Invoice Start Date
 * Invoice End Date
 
-### Output
+## Output
 * SAP Response []
   - SAP Response
 
-### Mechanism
+## Mechanism
 * Connect to MSSQL
 * Execute SQL
 * Map SQL results into _SAP Posting Document(s)_
@@ -21,8 +21,9 @@
 * Post into SAP
 * Map [SAP response](Samples/002/20200603053600_Success_MessageID%20773702)(s) into SAP Response []
 
-### Supporting Information
-- [x] Input _Schema_
+## Supporting Information
+
+### Input _Schema_
 
 | Item | Type | Type Details | Reference Name | Remarks |
 | --- | --- | --- | --- | --- |
@@ -30,14 +31,14 @@
 | Invoice End Date | string | ISO 8601 | @DateTo | |
 
 
-- [x] Output _Schema (SAP Response)_
+### Output _Schema (SAP Response)_
 
 | Item | Type | Type Details | Remarks |
 | --- | --- | --- | --- |
 | SAP Response | string | | Verbatim response received from SAP |
 
 
-- [x] MSSQL Connection Details
+### MSSQL Connection Details
 
 | Item | Value | Remarks |
 | --- | --- | --- |
@@ -47,7 +48,7 @@
 | Password   | vg2_asp_password  |   |
 
 
-- [x] SELECT Details
+### SELECT Details
 
 #### SELECT
 
@@ -126,10 +127,11 @@
 | ORDER BY | Header.CreatedDateTime | |
 
 
-- [ ] SAP Connection Details
+### SAP Connection Details
 
+Please let us know what SAP Connection information you require to configure your SAP Connector.
 
-- [x] SAP Mapping
+### SAP Mapping
 
 | SAP | Value | Remarks |
 | --- | --- | --- |
