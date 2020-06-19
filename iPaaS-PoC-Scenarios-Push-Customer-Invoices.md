@@ -123,7 +123,7 @@
 | WHERE | JRNAL_TYPE in ('I1', 'I2') | |
 | WHERE | PSTNG_DATE between @DateFrom and @DateTo | |
 | WHERE | POSTSTATUS in ( 'N', 'F') | |
-| OREDER BY | Header.CreatedDateTime | |
+| ORDER BY | Header.CreatedDateTime | |
 
 
 - [ ] SAP Connection Details
