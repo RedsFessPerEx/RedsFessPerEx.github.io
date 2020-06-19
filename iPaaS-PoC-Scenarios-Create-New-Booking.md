@@ -2,16 +2,16 @@
 
 # New Booking
 
-### Purpose
+## Purpose
 (Ad-hoc) Receive and Process new Booking
 
-### Input
+## Input
 * EDI (COPRAR)
 
-### Output
+## Output
 * None
 
-### Mechanism
+## Mechanism
 The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this PoC. Instead, the connectivity (receive) will be _simulated_ by with an API Input.
 * Retrieve _EDI Document_ [Sample 1](Samples/003/01.%20COPRAR_GP.edi) [Sample 2](Samples/003/02.COPRAR_DG.edi) [Sample 3](Samples/003/03.COPRAR%20_Reefer..edi) [Sample 4](Samples/003/04.COPRAR_OOG.edi)
 * Map data
@@ -22,8 +22,9 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
   - Insert one record into T_EDI_HEADER
   - Insert one or more records into T_EDI_DETAIL_BOOKING
 
-### Supporting Information
-- [x] Mapping Details
+## Supporting Information
+
+### Mapping Details
 
 #### For T_EDI_Header Table
 
@@ -71,13 +72,13 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | IMCO | Varchar(20) | SegmentGroup3.DGS+IMD -> C205.8351 | M |  |
 | UN | int | SegmentGroup3.DGS+IMD -> C234.7124 | M |  |
 | FP | float | SegmentGroup3.DGS+IMD -> C223.7106 | O |  |
-| OLA | float | SegmentGroup3.DIM+6->C221.6168 | M |  |
-| OLF | float | SegmentGroup3.DIM+6->C221.6168 | M |  |
-| OOH | float | SegmentGroup3.DIM+9->C221.6008 | M |  |
-| OWP | float | SegmentGroup3.DIM+8->C221.6140 | M |  |
-| OWS | float | SegmentGroup3.DIM+7->C221.6140 | M |  |
+| OLA | float | SegmentGroup3.DIM+6 -> C221.6168 | M |  |
+| OLF | float | SegmentGroup3.DIM+6 -> C221.6168 | M |  |
+| OOH | float | SegmentGroup3.DIM+9 -> C221.6008 | M |  |
+| OWP | float | SegmentGroup3.DIM+8 -> C221.6140 | M |  |
+| OWS | float | SegmentGroup3.DIM+7 -> C221.6140 | M |  |
 
-- [x] MSSQL Connection Details
+### MSSQL Connection Details
 
 | Item | Value | Remarks |
 | --- | --- | --- |
@@ -86,7 +87,7 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | User ID  | TCMSUser  |   |
 | Password   | tgb123.DB.01  |   |
 
-- [x] SQL Details
+### SQL Details
 
 #### INSERT INTO T_EDI_HEADER
 
@@ -101,11 +102,19 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | InterchangeRef | varchar(13) | |
 | MessageType | int | |
 
+#### SELECT
+
+This SQL query is required to obtain an auto-generated _key_, to be used in subsequent SQL queries.
+
+```
+SELECT @TEDIHeaderPkey = SCOPE_IDENTITY()
+```
+
 #### INSERT INTO T_EDI_DETAIL_BOOKING
 
 | SQL Field | Type | Remarks |
 | --- | --- | --- |
-| TEDIHeaderPkey  | int  | SCOPE_IDENTITY()  |
+| TEDIHeaderPkey  | int  | @TEDIHeaderPkey |
 | VesselName | Varchar(100) | |
 | Voyage | varchar(20) | |
 | Pol | varchar(20) | |

@@ -2,28 +2,29 @@
 
 # Share Booking with JV Partner
 
-### Purpose
+## Purpose
 (Ad-hoc) Share Booking with JV Partner
 
-### Input
+## Input
 * Vessel
 * Voyage
 * Port
 * Call Seq
 * MLO
 
-### Output
+## Output
 * COPRAR Document []
   - COPRAR Document
 
-### Mechanism
+## Mechanism
 The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this PoC. Instead, the connectivity (send) will be _simulated_ by with an API Output.
 * Connect to MSSQL
 * Execute SQL
 * Map data into one or more _EDI (COPARN)_
 
-### Supporting Information
-- [ ] Input _Schema_
+## Supporting Information
+
+### Input _Schema_
 
 | Item | Type | Type Details | Reference Name | Remarks |
 | --- | --- | --- | --- | --- |
@@ -34,13 +35,13 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | MLO | string |  | @mlo | |
 
 
-- [x] Output _Schema (COPRAR Document)_
+### Output _Schema (COPRAR Document)_
 
 | Item | Type | Type Details | Remarks |
 | --- | --- | --- | --- |
 | COPRAR Document | string | | Verbatim EDI (COPRAR) |
 
-- [x] MSSQL Connection Details
+### MSSQL Connection Details
 
 | Item | Value | Remarks |
 | --- | --- | --- |
@@ -49,7 +50,7 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | User ID  | TCMSUser  |   |
 | Password   | tgb123.DB.01  |   |
 
-- [x] SQL Details
+### SQL Details
 
 #### SELECT
 
@@ -154,8 +155,8 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | Detail.IMCO | Varchar(20) | SegmentGroup3.DGS+IMD -> C205.8351 | M | |
 | Detail.UN | int | SegmentGroup3.DGS+IMD -> C234.7124 | M | |
 | Detail.FP | float | SegmentGroup3.DGS+IMD -> C223.7106 | O | |
-| Detail.OLA | float | SegmentGroup3.DIM+6->C221.6168 | M | |
-| Detail.OLF | float | SegmentGroup3.DIM+6->C221.6168 | M | |
-| Detail.OOH | float | SegmentGroup3.DIM+9->C221.6008 | M | |
-| Detail.OWP | float | SegmentGroup3.DIM+8->C221.6140 | M | |
-| Detail.OWS | float | SegmentGroup3.DIM+7->C221.6140 | M | |
+| Detail.OLA | float | SegmentGroup3.DIM+6 -> C221.6168 | M | |
+| Detail.OLF | float | SegmentGroup3.DIM+6 -> C221.6168 | M | |
+| Detail.OOH | float | SegmentGroup3.DIM+9 -> C221.6008 | M | |
+| Detail.OWP | float | SegmentGroup3.DIM+8 -> C221.6140 | M | |
+| Detail.OWS | float | SegmentGroup3.DIM+7 -> C221.6140 | M | |

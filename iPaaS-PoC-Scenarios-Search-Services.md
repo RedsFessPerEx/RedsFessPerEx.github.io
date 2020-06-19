@@ -2,15 +2,15 @@
 
 # Search Services
 
-### Purpose
+## Purpose
 (Ad-hoc) Search for services servicing specified Port over specified Duration
 
-### Input
+## Input
 * Port
 * Duration Start Date
 * Duration End Date
 
-### Output
+## Output
 * Service []
   - Service
   - Vessel
@@ -24,16 +24,14 @@
   - Created Date
   - Modified Date
 
-### Mechanism
+## Mechanism
 * Connect to MSSQL (on-premise)
 * Execute SQL
 * Map SQL results into Service []
 
-### Notes
-* Persist Search for future reference
+## Supporting Information
 
-### Supporting Information
-- [x] Input _Schema_
+### Input _Schema_
 
 | Item | Type | Type Details | Reference Name | Remarks |
 | --- | --- | --- | --- | --- |
@@ -41,7 +39,7 @@
 | Duration Start Date | string | ISO 8601 | @modifiedfrom | |
 | Duration End Date | string | ISO 8601 | @modifiedto | |
 
-- [x] Output _Schema (Service)_
+### Output _Schema (Service)_
 
 | Item | Type | Type Details | Remarks |
 | --- | --- | --- | --- |
@@ -58,7 +56,7 @@
 | Modified Date | string | ISO 8601 | |
 
 
-- [x] MSSQL Connection Details
+### MSSQL Connection Details
 
 | Item | Value | Remarks |
 | --- | --- | --- |
@@ -68,7 +66,7 @@
 | Password   | tgb123.DB.01  |   |
 
 
-- [x] SQL Details
+### SQL Details
 
 #### SELECT
 
