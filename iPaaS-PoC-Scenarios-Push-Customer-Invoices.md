@@ -127,9 +127,20 @@
 | ORDER BY | Header.CreatedDateTime | |
 
 
-### SAP Connection Details
+### ⭐ SAP Connection Details
 
-Please let us know what SAP Connection information you require to configure your SAP Connector.
+| Item | Details | Remarks |
+| --- | --- | --- |
+| SAP Version | S/4 HANA | |
+| Login | IPAAS |   |
+| Password   |  IPAAs12345$ |   |
+| Client | 300 |   |
+| Language  | EN  |   |
+| Application Server / Host   | 192.168.9.55  |   |
+| System Name   | XSD  |   |
+| System Number / Instance  | 00  |   |
+
+If the above are insufficient, please let us know what other SAP connection information you require in order to configure your SAP Connector.
 
 ### SAP Mapping
 
