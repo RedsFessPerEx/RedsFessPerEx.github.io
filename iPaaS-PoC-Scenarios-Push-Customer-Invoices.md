@@ -42,10 +42,6 @@
 
 | Item | Value | Remarks |
 | --- | --- | --- |
-| Data Source | POCHARD\VIRGIL2SQL | |
-| Initial Catalog | ARKS_DEV |   |
-| User ID  | vg2_asp_user  |   |
-| Password   | vg2_asp_password  |   |
 
 
 ### SELECT Details
