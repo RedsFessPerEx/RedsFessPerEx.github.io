@@ -43,8 +43,12 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 
 ### MSSQL Connection Details
 
-<!-- | Item | Value | Remarks |
-| --- | --- | --- | -->
+| Item | Value | Remarks |
+| --- | --- | --- |
+| Data Source | 192.168.176.71\TCMSQA | |
+| Initial Catalog | TCMS_6_Dev |   |
+| User ID  |   |   |
+| Password   |   |   |
 
 ### SQL Details
 
