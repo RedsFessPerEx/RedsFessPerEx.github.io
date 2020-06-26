@@ -40,9 +40,12 @@
 
 ### MSSQL Connection Details
 
-<!-- | Item | Value | Remarks |
-| --- | --- | --- | -->
-
+| Item | Value | Remarks |
+| --- | --- | --- |
+| Data Source | POCHARD\VIRGIL2SQL | |
+| Initial Catalog | ARKS_DEV |   |
+| User ID  |   |   |
+| Password   |   |   |
 
 ### SELECT Details
 
