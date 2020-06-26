@@ -40,8 +40,8 @@
 
 ### MSSQL Connection Details
 
-| Item | Value | Remarks |
-| --- | --- | --- |
+<!-- | Item | Value | Remarks |
+| --- | --- | --- | -->
 
 
 ### SELECT Details
