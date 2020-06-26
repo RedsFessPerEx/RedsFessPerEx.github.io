@@ -58,8 +58,8 @@
 
 ### MSSQL Connection Details
 
-| Item | Value | Remarks |
-| --- | --- | --- |
+<!-- | Item | Value | Remarks |
+| --- | --- | --- | -->
 
 
 ### SQL Details

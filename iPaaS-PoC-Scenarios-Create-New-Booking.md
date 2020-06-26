@@ -80,8 +80,8 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 
 ### MSSQL Connection Details
 
-| Item | Value | Remarks |
-| --- | --- | --- |
+<!-- | Item | Value | Remarks |
+| --- | --- | --- | -->
 
 ### SQL Details
 
