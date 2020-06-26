@@ -60,10 +60,6 @@
 
 | Item | Value | Remarks |
 | --- | --- | --- |
-| Data Source | 192.168.176.71\TCMSQA | |
-| Initial Catalog | TCMS_6_Dev |   |
-| User ID  | TCMSUser  |   |
-| Password   | tgb123.DB.01  |   |
 
 
 ### SQL Details
