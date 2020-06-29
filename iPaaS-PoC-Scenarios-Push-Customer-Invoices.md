@@ -38,7 +38,7 @@
 | SAP Response | string | | Verbatim response received from SAP |
 
 
-### MSSQL Connection Details
+### ⭐ MSSQL Connection Details
 
 | Item | Value | Remarks |
 | --- | --- | --- |
