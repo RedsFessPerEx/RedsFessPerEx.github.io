@@ -47,8 +47,8 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | --- | --- | --- |
 | Data Source | 192.168.176.71\TCMSQA | |
 | Initial Catalog | TCMS_6_Dev |   |
-| User ID  |   |   |
-| Password   |   |   |
+| User ID  | TCMSUser  |   |
+| Password   | tgb123.DB.01  |   |
 
 ### SQL Details
 
