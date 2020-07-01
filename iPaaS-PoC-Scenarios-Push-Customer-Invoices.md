@@ -38,7 +38,7 @@
 | SAP Response | string | | Verbatim response received from SAP |
 
 
-### ⭐ MSSQL Connection Details
+### MSSQL Connection Details
 
 | Item | Value | Remarks |
 | --- | --- | --- |
@@ -130,7 +130,7 @@
 | ORDER BY | Header.CreatedDateTime | |
 
 
-### ⭐ SAP Connection Details
+### SAP Connection Details
 
 | Item | Details | Remarks |
 | --- | --- | --- |
@@ -221,3 +221,14 @@ If the above are insufficient, please let us know what other SAP connection info
 | Pyamt |  | |
 | Pycur  |  | |
 | TransType | Detail.TRANSTYPE | |
+
+## ⭐ Sample Test Inputs
+
+| Sample Number | Invoice Start Date | Invoice End Date | Remarks |
+| --- | --- | --- | --- |
+| 1 | 1 Jan 2019 | 31 Jan 2019 |  |
+| 2 | 1 Feb 2019 | 28 Feb 2019 |  |
+| 3 | 1 Mar 2019 | 31 Mar 2019 |  |
+| 3 | 1 Apr 2019 | 30 Apr 2019 |  |
+
+You can also vary the dates to create additional queries.

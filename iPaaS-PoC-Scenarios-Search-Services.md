@@ -91,3 +91,15 @@
 | FROM | v_VesselSchedulewithCodsBI | |
 | WHERE | port = @port | |
 | WHERE | VoyageModifiedDate between @modifiedfrom and @modifiedto | |
+
+
+## ⭐ Sample Test Inputs
+
+| Sample Number | Port | Duration Start Date | Duration End Date | Remarks |
+| --- | --- | --- | --- | --- |
+| 1 | SGSIN | 1 Jan 2019 | 31 Jan 2019 |  |
+| 2 | MYPKG | 1 Feb 2019 | 28 Feb 2019 |  |
+| 3 | BGCGP | 1 Mar 2019 | 31 Mar 2019 |  |
+| 4 | AEJEA | 1 Apr 2019 | 30 Mar 2019 |  |
+
+You can also vary the dates to create additional queries.
