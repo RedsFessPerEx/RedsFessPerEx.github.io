@@ -160,3 +160,11 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | Detail.OOH | float | SegmentGroup3.DIM+9 -> C221.6008 | M | |
 | Detail.OWP | float | SegmentGroup3.DIM+8 -> C221.6140 | M | |
 | Detail.OWS | float | SegmentGroup3.DIM+7 -> C221.6140 | M | |
+
+## ⭐ Sample Test Inputs
+
+| Sample Number | Vessel | Voyage | Port | Call Seq | MLO | Remarks |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 |  |  |  |  |  |  |
+| 2 |  |  |  |  |  |  |
+| 3 |  |  |  |  |  |  |
