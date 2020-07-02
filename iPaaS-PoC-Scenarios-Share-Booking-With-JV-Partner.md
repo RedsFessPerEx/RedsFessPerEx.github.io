@@ -165,6 +165,68 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 
 | Sample Number | Vessel | Voyage | Port | Call Seq | MLO | Remarks |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |
-| 3 |  |  |  |  |  |  |
+| 1 | AISOP | 001N | BLW | 1 | ACL |  |
+| 2 | AISOP | 001N | IDBLW | 1 | ACL |  |
+| 3 | AMERD | 1803 | NLRTM | 1 | SAMB |  |
+| 4 | AMERD | 1803 | NLRTM | 1 | UNFR |  |
+| 5 | ATCOM | 18144 | NLRTM | 1 | HL |  |
+| 6 | ATCOM | 18144 | NLRTM | 1 | LT |  |
+| 7 | CNBAY | 19004 | NLRTM | 1 | MANN |  |
+| 8 | CNBAY | 19004 | NLRTM | 1 | SAM |  |
+| 9 | CNGUL | 1701 | DEHAM | 1 | CEYL |  |
+| 10 | CNGUL | 1813 | FIOUL | 1 | HL |  |
+| 11 | GETRD | 18127 | NLRTM | 1 | CMA |  |
+| 12 | GETRD | 18127 | NLRTM | 1 | CMA01 |  |
+| 13 | HANNI | 1747 | SEAHU | 1 | HSLA |  |
+| 14 | HRLSJ | 1755 | NLRTM | 1 | UNFR |  |
+| 15 | HYGEN | 574E | MYPKG | 1 | ACL |  |
+| 16 | HYGEN | 574E | MYPKG | 1 | AET |  |
+| 17 | HYGEN | 574E | MYPKG | 1 | CCN |  |
+| 18 | HYHOP | 025E | SGSIN | 1 | PIL |  |
+| 19 | HZSCH | 1807 | SESOE | 1 | HSLA |  |
+| 20 | HZSCH | 1808 | SESOE | 1 | HSLA |  |
+| 21 | HZSCH | 1809 | SESOE | 1 | HSLA |  |
+| 22 | ICRUN | 1702 | DKAAL | 1 | ACL |  |
+| 23 | ICRUN | 1702 | DKAAL | 1 | ACNL |  |
+| 24 | ICRUN | 1812 | NLRTM | 1 | K |  |
+| 25 | ICRUN | 1812 | NLRTM | 1 | ACL |  |
+| 26 | ICRUN | 1812 | NLRTM | 1 | WAN |  |
+| 27 | ISEXP | 18137 | FIOUL | 1 | CMA |  |
+| 28 | ISEXP | 18137 | FIOUL | 1 | HL |  |
+| 29 | ISEXP | 18137 | FIOUL | 1 | HSL |  |
+| 30 | ISEXP | 18137 | FIOUL | 1 | MSK |  |
+| 31 | MUSIC | 400 | NLRTM | 1 | UNFR |  |
+| 32 | MUSIC | 501 | NLRTM | 1 | SAMB |  |
+| 33 | MUSIC | 501 | NLRTM | 1 | UNFR |  |
+| 34 | NDPHP | 18134 | FIOUL | 1 | CMA |  |
+| 35 | NDPHP | 18134 | FIOUL | 1 | HL |  |
+| 36 | NDPHP | 18134 | FIOUL | 1 | HSL |  |
+| 37 | NDPHP | 18134 | FIOUL | 1 | MSK |  |
+| 38 | SPRIT | 19038 | NLRTM | 1 | APCC |  |
+| 39 | SPRIT | 19038 | NLRTM | 1 | CMA |  |
+| 40 | SPRIT | 19038 | NLRTM | 1 | EVER |  |
+| 41 | SPRIT | 19038 | NLRTM | 1 | EVMS |  |
+| 42 | SPRIT | 19038 | NLRTM | 1 | HTSU |  |
+| 43 | TEST | 004W | FIOUL | 1 | NYK |  |
+| 44 | TEST | 004W | FIOUL | 1 | OOCL |  |
+| 45 | TEST | 004W | FIOUL | 1 | YML |  |
+| 46 | TEST | 1012 | SGSIN | 1 | ACL |  |
+| 47 | TEST | 1012 | SGSIN | 1 | CCN |  |
+| 48 | TEST | 1012 | SGSIN | 1 | CCSA |  |
+| 49 | TEST | 1012 | SGSIN | 1 | CEYL |  |
+| 50 | TEST | 1012 | SGSIN | 1 | CPI |  |
+| 51 | TEST | 1012 | SGSIN | 1 | CRES |  |
+| 52 | TEST | 1012 | SGSIN | 1 | DYLG |  |
+| 53 | TEST | 1012 | SGSIN | 1 | SAF |  |
+| 54 | TEST | 1012 | SGSIN | 1 | SCGL |  |
+| 55 | TEST | 16001 | FIOUL | 1 | CMA |  |
+| 56 | TEST | 16001 | FIOUL | 1 | CMA01 |  |
+| 57 | TEST | 16001 | FIOUL | 1 | HAM02 |  |
+| 58 | TEST | 16001 | FIOUL | 1 | HAP01 |  |
+| 59 | TEST | 16001 | FIOUL | 1 | HL |  |
+| 60 | TEST | 16001 | FIOUL | 1 | HSL |  |
+| 61 | THEAS | 022W | SGSIN | 1 | ACL |  |
+| 62 | THEAS | 022W | SGSIN | 1 | SAF |  |
+| 63 | WESCA | 19010 | NLRTM | 1 | APCO |  |
+| 64 | XPB | 96 | INNML | 1 | ACL |  |
+| 65 | XXXX | 1234 | GBSOU | 1 | IDCL |  |
