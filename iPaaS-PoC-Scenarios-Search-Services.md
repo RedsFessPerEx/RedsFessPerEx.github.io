@@ -56,14 +56,18 @@
 | Modified Date | string | ISO 8601 | |
 
 
-### MSSQL Connection Details
+### ⭐ MSSQL Connection Details
 
 | Item | Value | Remarks |
 | --- | --- | --- |
-| Data Source | 192.168.176.71\TCMSQA | |
-| Initial Catalog | TCMS_6_Dev |   |
-| User ID  | TCMSUser  |   |
-| Password   | tgb123.DB.01  |   |
+| Data Source | POCHARD\VIRGIL2SQL | |
+| Initial Catalog | ARKS_DEV |   |
+| User ID  | vg2_IPAAS_user01  | For Jitterbit's use only  |
+| Password   | IPaAS_p@$swOrd  | For Jitterbit's use only  |
+| User ID  | vg2_IPAAS_user02  | For Dell's use only  |
+| Password   | IP@AS_p@$sw0rd  | For Dell's use only  |
+| User ID  | vg2_IPAAS_user03  | For MuleSoft's use only  |
+| Password   | IPa@S_p@$sword  | For MuleSoft's use only  |
 
 
 ### SQL Details
@@ -88,12 +92,12 @@
 
 | Item | Details | Remarks |
 | --- | --- | --- |
-| FROM | v_VesselSchedulewithCodsBI | |
+| FROM | ⭐ v_VesselSchedulewithCodesBI | |
 | WHERE | port = @port | |
 | WHERE | VoyageModifiedDate between @modifiedfrom and @modifiedto | |
 
 
-## ⭐ Sample Test Inputs
+## Sample Test Inputs
 
 | Sample Number | Port | Duration Start Date | Duration End Date | Remarks |
 | --- | --- | --- | --- | --- |
