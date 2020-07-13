@@ -134,8 +134,8 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | Detail.Pod | varchar(20) | SegmentGroup3.LOC+11 -> C517.3225 | M | |
 | Detail.PodTerminal | Varchar(100) | SegmentGroup3.LOC+11 -> C519.3223 | M | |
 | Detail.MLO | varchar(10) | Applicable MLO | M | |
-| Detail.BookingReference | varchar(70) | SegmentGroup3.RFF+BM -> 1154 | M | |
-| Detail.MLOPO | varchar(70) | SegmentGroup3.RFF+BM -> 1154 | M | |
+| Detail.BookingReference | varchar(70) | SegmentGroup3.RFF+BM -> 1154 | M | ⭐ Either use this |
+| Detail.MLOPO | varchar(70) | SegmentGroup3.RFF+BM -> 1154 | M | ⭐ Or this |
 | Detail.MotherVessel | Varchar(200) | SegmentGroup3.TDT+10/30 -> C222.8212 | O | |
 | Detail.MotherVoyage | Varchar(40) | SegmentGroup3.TDT+10/30 -> C220.8067 | O | |
 | Detail.MotherVesselCallSign | Varchar(20) | SegmentGroup3.TDT+10/30 -> C222.8213 | O | |
@@ -149,19 +149,19 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | Detail.GoodsDescrp | Varchar(3000) | SegmentGroup3.FTX+AAA -> C108.4440 | M | |
 | Detail.CargoStatus | Varchar(4) | SegmentGroup3.FTX+CCI -> C108.4440 | M | |
 | Detail.FPOD | Varchar(100) | SegmentGroup3.LOC+88 -> C519.3223 | M | |
-| Detail.TempMin | float | SegmentGroup3.RNG+5 -> C280.6162 | M | |
-| Detail.TempOpt | float | SegmentGroup3.RNG+5 -> C280.6162 | M | |
+| Detail.TempMin | float | SegmentGroup3.RNG+5 -> C280.6162 | M | ⭐ Either use this |
+| Detail.TempOpt | float | SegmentGroup3.RNG+5 -> C280.6162 | M | ⭐ Or this |
 | Detail.TempMax | float | SegmentGroup3.RNG+5 -> C280.6152 | M | |
 | Detail.IMCO | Varchar(20) | SegmentGroup3.DGS+IMD -> C205.8351 | M | |
 | Detail.UN | int | SegmentGroup3.DGS+IMD -> C234.7124 | M | |
 | Detail.FP | float | SegmentGroup3.DGS+IMD -> C223.7106 | O | |
 | Detail.OLA | float | SegmentGroup3.DIM+6 -> C221.6168 | M | |
-| Detail.OLF | float | SegmentGroup3.DIM+6 -> C221.6168 | M | |
+| Detail.OLF | float | ⭐ SegmentGroup3.DIM+5 -> C221.6168 | M | |
 | Detail.OOH | float | SegmentGroup3.DIM+9 -> C221.6008 | M | |
 | Detail.OWP | float | SegmentGroup3.DIM+8 -> C221.6140 | M | |
 | Detail.OWS | float | SegmentGroup3.DIM+7 -> C221.6140 | M | |
 
-## ⭐ Sample Test Inputs
+## Sample Test Inputs
 
 | Sample Number | Vessel | Voyage | Port | Call Seq | MLO | Remarks |
 | --- | --- | --- | --- | --- | --- | --- |
