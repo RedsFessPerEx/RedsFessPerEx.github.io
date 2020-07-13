@@ -101,6 +101,7 @@ The actual EDI Partner connectivity (like SFTP, AS2) will not be used in this Po
 | ReceivedDateTime | Datetime | |
 | InterchangeRef | varchar(13) | |
 | MessageType | int | |
+| ⭐ReceiverMEDIPartyPkey  |   | ⭐ Set to 22  |
 
 #### SELECT
 
